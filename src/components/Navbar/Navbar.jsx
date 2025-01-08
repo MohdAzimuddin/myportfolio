@@ -55,7 +55,7 @@ const Navbar = () => {
           <BsGithub />
         </a>
       </ul>
-
+ 
       {/* Mobile Menu Icon (BiMenu & BiX) */}
       {isOpen ? (
         <BiX className="menu-icon" onClick={menuOpen} /> // Close icon

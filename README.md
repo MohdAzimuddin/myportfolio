@@ -49,7 +49,7 @@ To run this project locally, follow these steps:
 
 ## Live Demo
 
-[Netlify](https://mohdazimuddinport.netlify.app) 
+[Portfolio Website](https://mohdazimuddinport.netlify.app) 
 
 ## Contributing
 

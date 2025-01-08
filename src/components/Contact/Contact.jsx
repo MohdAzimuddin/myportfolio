@@ -2,7 +2,7 @@ import React from "react";
 import "./contact.css"; // Import the CSS file
 import { MdEmail,} from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
-
+ 
 const Contact = () => {
   return (
     <div id="contact" className="contact-container">

@@ -2,7 +2,7 @@ import React from "react";
 import image from "/public/my_pic.png"; // Importing the image to be displayed
 import { motion } from "framer-motion"; // Importing Framer Motion for animation effects
 import "./hero.css"; // Import the CSS file
-
+ 
 const Hero = () => {
   return (
     <div id="home" className="hero-container">

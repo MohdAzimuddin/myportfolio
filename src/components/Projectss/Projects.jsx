@@ -51,7 +51,7 @@ const projectData = [
     live_demo: "https://mohdazimuddinport.netlify.app",
     }
 ];
-
+ 
 // Component for applying scroll animations using Framer Motion
 const ScrollReveal = ({ children }) => {
   return (

@@ -1,0 +1,61 @@
+*{
+  font-family: "poppins";
+  scroll-behavior: smooth;
+  /* overflow: hidden; */
+}
+html,body{
+  background: radial-gradient(125% 125% at 50% 10%, #000000 30%, #4b0082 70%, #ac97bb 100%);
+
+}
+
+
+::-webkit-scrollbar{
+  width:20px;  /* Makes the scrollbar 20px wide */
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.9); /* Almost black with slight transparency */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, rgba(0, 62, 196), rgba(184, 0, 153));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

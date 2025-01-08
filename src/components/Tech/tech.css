@@ -1,0 +1,104 @@
+/* Tech Container */
+.tech-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  width: 100%;
+  gap: 2.5rem; 
+  padding: 1.25rem; 
+}
+
+/* Tech Heading */
+.tech-heading {
+  font-size: 2.25rem; 
+  font-weight: 300;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .tech-heading {
+      font-size: 3rem; 
+  }
+}
+
+/* Tech Icons Container */
+.tech-icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem; 
+}
+
+/* Tech Icon Styles */
+.tech-icon {
+  font-size: 5rem; 
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.tech-icon:hover {
+  transform: translateY(-1.25rem); 
+}
+
+/* Icon Colors */
+.html-icon {
+  color: #e34f26;
+}
+
+.css-icon {
+  color: #1572b6;
+}
+
+.js-icon {
+  color: #f7df1e;
+}
+
+.react-icon {
+  color: #61dafb;
+}
+
+.router-icon {
+  color: #ff0000;
+}
+
+.framer-icon {
+  color: #ffff00;
+}
+
+.git-icon {
+  color: #fb2e0a;
+}
+
+/* Responsive Styles */
+@media (max-width: 1380px) {
+  .tech-icon {
+      font-size: 6.2rem; 
+  }
+}
+
+@media (max-width: 1084px) {
+  .tech-icon {
+      font-size: 5.6rem; 
+  }
+}
+
+@media (max-width: 820px) {
+  .tech-icon {
+      font-size: 5rem; 
+  }
+}
+
+@media (max-width: 580px) {
+  .tech-icon {
+      font-size: 4.375rem; 
+  }
+}
+
+@media (max-width: 350px) {
+  .tech-icon {
+      font-size: 3.75rem; 
+  }
+}

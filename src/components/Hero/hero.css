@@ -1,0 +1,190 @@
+/* Hero Container */
+.hero-container {
+  padding: 1.75rem 1rem; 
+  margin-top: 2.5rem;
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+/* Hero Content */
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem; 
+  text-align: center;
+  color: white;
+}
+
+/* Image Styles */
+.hero-image {
+  width:33rem; 
+  border-radius: 50%;
+  box-shadow: 0rem 0.62rem 1.87rem #8a4fb4e6; 
+  transition: transform 0.3s ease-in-out, 
+  box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.hero-image:hover {
+  transform: translateY(-1.25rem) scale(1.05); 
+  box-shadow: 0rem 1.25rem 2.5rem #61526b99; 
+}
+
+/* Hero Heading */
+.hero-heading {
+  font-size: 2.5rem; 
+  font-weight: 600;
+  background: linear-gradient(to right, #3b82f6, #ec4899);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+/* Hero Subheading */
+.hero-subheading {
+  font-size: 1.8rem;
+  font-weight: 400;
+  background: linear-gradient(to right, #ec4899,#3b82f6);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+/* Hero Description */
+.hero-description {
+  font-size: 1.1rem; 
+  padding: 0.8rem 1.6rem;
+  color: #fcfdff;
+  width: 45rem; 
+  margin-bottom: 1rem;
+  box-shadow: 0.2rem 0.25rem 0.6rem 0.2rem #3a0189e6; 
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.hero-description:hover {
+  background-color: #6200f5;
+  transform: translateY(-0.5rem); 
+  box-shadow: 0rem 0.5rem 1.25rem #2e155599; 
+}
+
+/* Resume Button */
+
+.hero-resume{
+margin-top: 2.5rem;
+}
+
+
+.resume-button {
+  padding: 0.7rem 1.5rem; 
+  font-weight: 500;
+  font-size: 1rem; 
+  color: white;
+  background-color: #6403ff;
+  border-radius: 0.8rem; 
+  box-shadow: 0rem 0.25rem 0.6rem #5b4186e6; 
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.resume-button:hover {
+  background-color: #823dfa;
+  transform: translateY(-0.5rem); 
+  box-shadow: 0rem 0.5rem 1.25rem #6d28d999; 
+}
+
+/* Responsive Styles */
+@media (max-width: 1380px) {
+  .hero-heading {
+    font-size: 2.2rem; 
+  }
+
+  .hero-subheading {
+    font-size: 1.5rem; 
+  }
+
+  .hero-description {
+    font-size: 0.9rem; 
+  }
+}
+
+@media (max-width: 1084px) {
+  .hero-image {
+    width: 20rem; 
+  }
+
+  .hero-heading {
+    font-size: 2rem; 
+  }
+
+  .hero-subheading {
+    font-size: 1.5rem; 
+  }
+  .hero-description {
+    font-size: 0.9rem; 
+    width: 35rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .hero-image {
+    width: 17rem; 
+  }
+
+  .hero-heading {
+    font-size: 1.8rem; 
+  }
+
+  .hero-description {
+    font-size: 0.9rem; 
+    margin-inline:1.2rem;
+    width: 30rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .hero-image {
+    width: 12.5rem; 
+  }
+
+  .hero-heading {
+    font-size: 1.5rem; 
+  }
+
+  .hero-subheading {
+    font-size: 1rem; 
+  }
+  .hero-description {
+    font-size: 0.8rem; 
+    margin-inline:1rem;
+    width: 20rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .hero-image {
+    width: 11.25rem; 
+  }
+
+  .hero-heading {
+    font-size: 1.25rem;
+  }
+
+  .hero-subheading {
+    font-size: 0.9rem; 
+  }
+
+  .hero-description {
+    font-size: 0.6rem; 
+    margin-inline:1rem;
+    width: 10rem;
+  }
+}

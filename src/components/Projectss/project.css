@@ -1,0 +1,241 @@
+/* General Container Styles */
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1rem;
+  gap: 4rem;
+}
+
+.projects-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+/* Projects List */
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* Individual Project Card */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Project Image */
+.project-image {
+  width: 100%;
+  max-height: 12.5rem;
+  max-width: 25rem;
+  border-radius: 1.5rem;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.project-image:hover {
+  transform: scale(1.05);
+}
+
+/* Project Details */
+.project-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.project-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: white;
+}
+
+.project-description {
+  color: #c0c1c3;
+}
+
+.project-title-desc p{
+text-align: left;
+}
+
+
+
+.project-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.project-tech {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+/* Project-iCON */
+.Project-icon {
+margin: 1.8rem 0rem;
+}
+
+.Project-icon a {
+text-decoration: none;
+}
+
+.icon {
+font-size: 2rem;
+padding: 0.7rem 1.4rem;
+margin: 0rem 0.5rem;
+font-weight: 600;
+border: none;
+border-radius: 2rem;
+box-shadow: 0.1rem 0rem 1.2rem 0.1rem #5b4186e6;
+transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.project-source-code {
+background-color: #252325;
+color: white;
+}
+.project-source-code:hover {
+background-color: #100f12;
+transform: translateY(-0.5rem); 
+box-shadow: 0rem 0.5rem 1.25rem #6d28d999; 
+}
+
+.project-Live-Demo {
+color: white;
+background-color: #6403ff;
+}
+
+.project-Live-Demo:hover {
+background-color: #7152a7;
+transform: translateY(-0.5rem); 
+box-shadow: 0rem 0.5rem 1.25rem #6009ec99; 
+}
+
+.project-github-icon,
+.project-netlify-icon {
+font-size: 1.1rem;
+margin-right: 0.6rem;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+.project-card {
+  flex-direction: row;
+  gap: 6rem;
+}
+.projects-heading {
+  font-size: 1.8rem;
+}
+.icon {
+  font-size: 0.7rem;
+  padding: 0.4rem 0.8rem;
+  margin: 0rem 0.5rem;
+  font-weight: 400;
+  }
+  .project-github-icon,
+.project-netlify-icon {
+font-size: 0.7rem;
+margin-right: 0.8rem;
+}
+
+
+}
+
+@media (max-width: 1376px) {
+.project-image {
+  max-width: 16.25rem;
+}
+}
+
+@media (max-width: 1084px) {
+.project-image {
+  max-width: 15rem;
+}
+}
+
+@media (max-width: 820px) {
+.project-image {
+  max-width: 12.5rem;
+}
+.icon {
+  font-size: 0.7rem;
+  padding: 0.4rem 0.8rem;
+  margin: 0rem 0.5rem;
+  font-weight: 300;
+  }
+  .project-github-icon,
+.project-netlify-icon {
+font-size: 0.7rem;
+margin-right: 0.8rem;
+}
+/* .project-description{
+  text-align: left;
+} */
+}
+
+@media (max-width: 580px) {
+  .project-card {
+    display: flex;
+    flex-direction: column;
+   /* text-align: center; */
+    gap: 5rem;
+  }
+  .project-card {
+    gap: 1.3rem;
+  }
+.project-image {
+  max-width: 11.25rem;
+}
+.projects-heading{
+  font-size: 1.5rem;
+}
+
+  .project-technologies {
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 1rem;
+  }
+  
+
+.project-tech {
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.5rem;
+}
+.icon {
+  font-size: 0.7rem;
+  padding: 0.4rem 0.8rem;
+  margin: 0rem 0.5rem;
+  font-weight: 400;
+  }
+  .project-github-icon,
+.project-netlify-icon {
+font-size: 0.7rem;
+margin-right: 0.8rem;
+}
+}
+
+@media (max-width: 375px) {
+  
+ 
+.icon {
+  font-size: 0.6rem;
+  padding: 0.2rem 0.6rem;
+  margin: 0rem 0.5rem;
+}
+  .project-github-icon,
+.project-netlify-icon {
+font-size: 0.6rem;
+margin-right: 0.4rem;
+}
+}

@@ -7,7 +7,7 @@ import {
   BiLogoReact,
 } from "react-icons/bi";
 import { SiReactrouter } from "react-icons/si";
-
+ 
 import { motion } from "framer-motion"; // Importing motion for animations
 import "./tech.css"; // Import the CSS file for styling
 import { TbBrandFramerMotion } from "react-icons/tb";

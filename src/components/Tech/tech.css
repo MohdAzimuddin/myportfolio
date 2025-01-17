@@ -71,6 +71,19 @@
 .git-icon {
   color: #fb2e0a;
 }
+/* Tech details */
+.tech-deatils{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Tech detals name */
+.stack-name{
+  color: white;
+  font-size: 1rem;
+}
 
 /* Responsive Styles */
 @media (max-width: 1380px) {

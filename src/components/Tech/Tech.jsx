@@ -50,44 +50,51 @@ const Tech = () => {
       <div className="tech-icons-container">
         {/* Each technology icon is wrapped with the IconAnimation for animation */}
         <IconAnimation>
-          <div>
+          <div className="tech-deatils">
             <BiLogoHtml5 className="tech-icon html-icon" />
+            <span className="stack-name">HTML5</span>
           </div>
         </IconAnimation>
 
         <IconAnimation>
-          <div>
+          <div className="tech-deatils">
             <BiLogoCss3 className="tech-icon css-icon" />
+            <span className="stack-name">CSS3</span>
           </div>
         </IconAnimation>
 
         <IconAnimation>
-          <div>
+          <div className="tech-deatils">
             <BiLogoJavascript className="tech-icon js-icon" />
+            <span className="stack-name">javaScript</span>
           </div>
         </IconAnimation>
 
         <IconAnimation>
-          <div>
+          <div className="tech-deatils">
             <BiLogoReact className="tech-icon react-icon" />
+            <span className="stack-name">React.js</span>
           </div>
         </IconAnimation>
 
         <IconAnimation>
-          <div>
+          <div className="tech-deatils">
             <SiReactrouter className="tech-icon router-icon" />
+            <span className="stack-name">React-Router-Dom</span>
           </div>
         </IconAnimation>
 
         <IconAnimation>
-          <div>
+          <div className="tech-deatils">
             <TbBrandFramerMotion className="tech-icon framer-icon" />
+            <span className="stack-name">Framer Motion</span>
           </div>
         </IconAnimation>
 
         <IconAnimation>
-          <div>
+          <div className="tech-deatils">
             <BiLogoGit className="tech-icon git-icon" />
+            <span className="stack-name">Git</span>
           </div>
         </IconAnimation>
       </div>

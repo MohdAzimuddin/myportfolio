@@ -34,7 +34,7 @@ const Hero = () => {
           </p>
           <div className="hero-resume">
           <a
-            href="https://github.com/MohdAzimuddin/resume/raw/main/Mohd_Azimuddin__Frontend_resume.pdf"
+            href="https://github.com/MohdAzimuddin/resume_/raw/main/Mohd_Azimuddin_Frontend_resume.pdf"
             download="Mohd_Azimuddin_Frontend_resume.pdf"
             >
               <button className="resume-button">

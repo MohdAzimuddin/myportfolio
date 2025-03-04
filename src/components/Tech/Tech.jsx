@@ -5,12 +5,13 @@ import {
   BiLogoHtml5,
   BiLogoJavascript,
   BiLogoReact,
+  BiLogoTailwindCss,
 } from "react-icons/bi";
 import { SiReactrouter } from "react-icons/si";
  
 import { motion } from "framer-motion"; // Importing motion for animations
 import "./tech.css"; // Import the CSS file for styling
-import { TbBrandFramerMotion } from "react-icons/tb";
+import { TbBrandFramerMotion, TbBrandNextjs } from "react-icons/tb";
 
 const Tech = () => {
   // Variants for motion animations - defines the hidden and visible states
@@ -49,6 +50,21 @@ const Tech = () => {
       {/* Container for technology icons */}
       <div className="tech-icons-container">
         {/* Each technology icon is wrapped with the IconAnimation for animation */}
+      
+        <IconAnimation>
+          <div className="tech-deatils">
+            <BiLogoReact className="tech-icon react-icon" />
+            <span className="stack-name">React (v19) </span>
+          </div>
+        </IconAnimation>
+      
+        <IconAnimation>
+          <div className="tech-deatils">
+            <BiLogoJavascript className="tech-icon js-icon" />
+            <span className="stack-name">JavaScript (ES6+)</span>
+          </div>
+        </IconAnimation>
+
         <IconAnimation>
           <div className="tech-deatils">
             <BiLogoHtml5 className="tech-icon html-icon" />
@@ -65,15 +81,8 @@ const Tech = () => {
 
         <IconAnimation>
           <div className="tech-deatils">
-            <BiLogoJavascript className="tech-icon js-icon" />
-            <span className="stack-name">javaScript</span>
-          </div>
-        </IconAnimation>
-
-        <IconAnimation>
-          <div className="tech-deatils">
-            <BiLogoReact className="tech-icon react-icon" />
-            <span className="stack-name">React.js</span>
+            <BiLogoTailwindCss className="tech-icon css-icon" />
+            <span className="stack-name">Tailwind CSS</span>
           </div>
         </IconAnimation>
 
@@ -97,6 +106,15 @@ const Tech = () => {
             <span className="stack-name">Git</span>
           </div>
         </IconAnimation>
+    
+        <IconAnimation>
+          <div className="tech-deatils">
+            <TbBrandNextjs className="tech-icon next-icon" />
+            <span className="stack-name">Next.js</span>
+            <span className="stack-name">Acquiring skills in</span>
+          </div>
+        </IconAnimation>
+        
       </div>
     </div>
   );

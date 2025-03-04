@@ -1,5 +1,3 @@
-# React + Vite
-
 # Personal Portfolio Website
 
 Welcome to my personal portfolio website repository! This project is designed to showcase my skills, projects, and experiences in a sleek and modern design. Built with React, CSS, Framer Motion, and React Icons, this portfolio emphasizes smooth animations, intuitive user experience, and responsive design.

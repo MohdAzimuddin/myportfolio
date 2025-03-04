@@ -93,6 +93,7 @@ margin-top: 2.5rem;
   box-shadow: 0rem 0.25rem 0.6rem #5b4186e6; 
   text-decoration: none;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  cursor:pointer;
 }
 
 .resume-button:hover {

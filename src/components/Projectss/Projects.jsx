@@ -4,6 +4,7 @@ import image1 from "/public/clothsKart.png"; // Importing the image for the firs
 import image2 from "/public/news.png"; // Importing the image for the second project
 import image3 from "/public/personaleditor.png"; // Importing the image for the third project
 import image4 from "/public/portfolio.png"; // Importing the image for the fourth project
+import image5 from "/public/Checklist.png"
 import "./project.css"; // Importing the CSS file for styling
 import { BsGithub } from "react-icons/bs"; // Importing GitHub icon from React Icons
 import { SiNetlify } from "react-icons/si"; // Importing Netlify icon from React Icons
@@ -41,6 +42,16 @@ const projectData = [
     live_demo: "https://1codeeditor.netlify.app/", 
   },
   {
+    // Fifth Project: Personal Portfolio Website
+    image: image5, 
+    title: "Simple Task Management Web App", 
+    description:
+      "A Check List App built with React & Tailwind CSS, featuring dark mode, local storage support, and task completion tracking Easily add, delete, and mark tasks as complete while enjoying a sleek and responsive UI. Hosted on Vercel for seamless deployment.", 
+    technologies: ["React", "Tailwind CSS"], 
+    source_code: "https://github.com/MohdAzimuddin/Checklist", 
+    live_demo: "https://checklist-mohdazimuddin-chi.vercel.app/",
+    },
+  {
     // Fourth Project: Personal Portfolio Website
     image: image4, 
     title: "Personal Portfolio Web Site", 
@@ -49,7 +60,8 @@ const projectData = [
     technologies: ["React", "CSS", "Framer-Motion"], 
     source_code: "https://github.com/MohdAzimuddin/myportfolio", 
     live_demo: "https://mohdazimuddinport.netlify.app",
-    }
+    },
+  
 ];
  
 // Component for applying scroll animations using Framer Motion

@@ -4,7 +4,7 @@ import Hero from './components/Hero/Hero';
 import Tech from './components/Tech/Tech';
 import Projects from './components/Projectss/Projects';
 import Contact from './components/Contact/Contact';
-import './app.css'; // Import the CSS file
+import './App.css'; // Import the CSS file
 
 const App = () => {
   return (

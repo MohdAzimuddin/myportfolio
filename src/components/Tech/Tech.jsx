@@ -89,7 +89,7 @@ const Tech = () => {
         <IconAnimation>
           <div className="tech-deatils">
             <SiReactrouter className="tech-icon router-icon" />
-            <span className="stack-name">React-Router-Dom</span>
+            <span className="stack-name">React-Router</span>
           </div>
         </IconAnimation>
 

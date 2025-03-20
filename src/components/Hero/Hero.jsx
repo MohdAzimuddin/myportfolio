@@ -27,17 +27,17 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }} // Animation duration and delay
           className="hero-text-container"
         >
-          <h1 className="hero-heading">Mohd Azimuddin</h1>
+          <h1 className="hero-heading">Mohammed Azeemuddin</h1>
           <h3 className="hero-subheading">Frontend Developer</h3>
           <p className="hero-description">
-          I am a passionate Front-End Developer skilled in React.js, Next.js, JavaScript (ES6+), HTML5, CSS3, and Tailwind CSS. I specialize in building responsive, interactive, and high-performance web applications with a focus on user experience and modern design. Currently, I’m expanding my expertise in Next.js to create even more scalable and SEO-friendly solutions. Driven by innovation and continuous learning, I strive to deliver efficient, visually appealing, and user-centric digital experiences.
+          I am a passionate Front-End Developer skilled in React.js, JavaScript (ES6+), HTML5, CSS3, and Tailwind CSS. I specialize in building responsive, interactive, and high-performance web applications with a focus on user experience and modern design. Currently, I’m expanding my expertise in Next.js to create even more scalable and SEO-friendly solutions. Driven by innovation and continuous learning, I strive to deliver efficient, visually appealing, and user-centric digital experiences.
 
 🚀 Let’s build something amazing!
           </p>
           <div className="hero-resume">
           <a
-            href="https://github.com/MohdAzimuddin/myUpdatedResume/raw/main/Mohd_Azimuddin_Frontend_resume.pdf"
-            download="Mohd_Azimuddin_Frontend_resume.pdf"
+            // href="https://github.com/MohdAzimuddin/myUpdatedResume/raw/main/Mohd_Azimuddin_Frontend_resume.pdf"
+            // download="Mohd_Azimuddin_Frontend_resume.pdf"
             >
               <button className="resume-button">
             Download Resume

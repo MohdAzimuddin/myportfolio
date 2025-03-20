@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className="navbar">
       {/* Logo/Name */}
       <a href="#home" className="navbar-logo">
-        Mohd Azimuddin
+        Mohammed Azeemuddin
       </a>
 
       {/* Desktop Navigation Links */}
@@ -26,7 +26,10 @@ const Navbar = () => {
           <li>Home</li>
         </a>
         <a href="#tech" className="navbar-link">
-          <li>Tech Stack</li>
+          <li>Tech</li>
+          </a>
+        <a href="#experience" className="navbar-link">
+          <li>Experience</li>
         </a>
         <a href="#projects" className="navbar-link">
           <li>Projects</li>
@@ -39,7 +42,7 @@ const Navbar = () => {
       {/* Social Media Links for Desktop */}
       <ul className="navbar-social-links">
         <a
-          href="https://www.linkedin.com/in/mohd-azimuddin-shaikh-34284b202"
+          href="https://linkedin.com/in/azeemuddin-shaikh-34284b202"
           target="_blank"
            rel="noopener noreferrer"
           className="navbar-social-link linkedin"
@@ -85,7 +88,7 @@ const Navbar = () => {
           {/* Social Links in Mobile Menu */}
           <ul className="mobile-menu-social-links">
             <a
-              href="https://www.linkedin.com/in/mohd-azimuddin-shaikh-34284b202"
+              href="https://linkedin.com/in/azeemuddin-shaikh-34284b202"
               target="_blank"
               className="mobile-menu-social-link linkedin"
             >
@@ -106,3 +109,8 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
+
+

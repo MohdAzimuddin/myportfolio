@@ -17,7 +17,7 @@ const projectData = [
     title: "ClothsKart: e-commerce web Application", 
     description:
       "ClothsKart front-end project, a responsive experience showcasing a curated selection of classic suits. Built with React.js, Vanilla CSS, React Router DOM, and React Icons, this project allows users to effortlessly add products to their cart, apply coupon codes and view their order total. animations by Framer Motion enhance the user interface.", 
-    technologies: ["React", "CSS", "React-Router-dom", "Framer-Motion"], 
+    technologies: ["React", "CSS", "React-Router", "Framer-Motion"], 
     source_code: "https://github.com/MohdAzimuddin/ClothsKart", 
     live_demo: "https://azimuddin-clothskart.netlify.app/", 
   },

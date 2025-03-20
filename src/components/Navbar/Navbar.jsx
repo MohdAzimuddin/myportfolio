@@ -75,8 +75,11 @@ const Navbar = () => {
               <li>Home</li>
             </a>
             <a href="#tech" className="mobile-menu-link">
-              <li>Tech Stack</li>
+              <li>Tech</li>
             </a>
+            <a href="#experience" className="mobile-menu-link">
+          <li>Experience</li>
+        </a>
             <a href="#projects" className="mobile-menu-link">
               <li>Projects</li>
             </a>

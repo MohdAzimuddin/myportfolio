@@ -71,6 +71,11 @@
 .git-icon {
   color: #fb2e0a;
 }
+.next-icon {
+  color: #000000;
+  background-color: #ffffff;
+  opacity: 0.1;
+}
 /* Tech details */
 .tech-deatils{
   display: flex;

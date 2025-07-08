@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className="navbar">
       {/* Logo/Name */}
       <a href="#home" className="navbar-logo">
-        Mohd Azimuddin
+        Mohammed Azeemuddin
       </a>
 
       {/* Desktop Navigation Links */}
@@ -26,7 +26,10 @@ const Navbar = () => {
           <li>Home</li>
         </a>
         <a href="#tech" className="navbar-link">
-          <li>Tech Stack</li>
+          <li>Tech</li>
+          </a>
+        <a href="#experience" className="navbar-link">
+          <li>Experience</li>
         </a>
         <a href="#projects" className="navbar-link">
           <li>Projects</li>
@@ -39,7 +42,11 @@ const Navbar = () => {
       {/* Social Media Links for Desktop */}
       <ul className="navbar-social-links">
         <a
+<<<<<<< HEAD
  href="https://www.linkedin.com/in/azeemuddin-shaikh-34284b202/"
+=======
+          href="https://linkedin.com/in/azeemuddin-shaikh-34284b202"
+>>>>>>> 35f5a5e2fc946ab19e5cbc5ee0fefa41a4f0e9c7
           target="_blank"
            rel="noopener noreferrer"
           className="navbar-social-link linkedin"
@@ -72,8 +79,11 @@ const Navbar = () => {
               <li>Home</li>
             </a>
             <a href="#tech" className="mobile-menu-link">
-              <li>Tech Stack</li>
+              <li>Tech</li>
             </a>
+            <a href="#experience" className="mobile-menu-link">
+          <li>Experience</li>
+        </a>
             <a href="#projects" className="mobile-menu-link">
               <li>Projects</li>
             </a>
@@ -85,7 +95,11 @@ const Navbar = () => {
           {/* Social Links in Mobile Menu */}
           <ul className="mobile-menu-social-links">
             <a
+<<<<<<< HEAD
               href="https://www.linkedin.com/in/azeemuddin-shaikh-34284b202/"
+=======
+              href="https://linkedin.com/in/azeemuddin-shaikh-34284b202"
+>>>>>>> 35f5a5e2fc946ab19e5cbc5ee0fefa41a4f0e9c7
               target="_blank"
               rel="noopener noreferrer"
               className="mobile-menu-social-link linkedin"
@@ -108,3 +122,8 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
+
+

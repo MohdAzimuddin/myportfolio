@@ -2,8 +2,14 @@ import React from "react";
 import { motion } from "framer-motion"; // Importing Framer Motion for animation effects
 import image1 from "/public/clothsKart.png"; // Importing the image for the first project
 import image2 from "/public/news.png"; // Importing the image for the second project
+<<<<<<< HEAD
 import image3 from "/public/personaleditor.png"; // Importing the image for the third project
 import image4 from "/public/supabse.png"; // Importing the image for the fourth project
+=======
+import image3 from "/public/Personaleditor.png"; // Importing the image for the third project
+import image4 from "/public/portfolio.png"; // Importing the image for the fourth project
+import image5 from "/public/Checklist.png"
+>>>>>>> 35f5a5e2fc946ab19e5cbc5ee0fefa41a4f0e9c7
 import "./project.css"; // Importing the CSS file for styling
 import { BsGithub } from "react-icons/bs"; // Importing GitHub icon from React Icons
 import { SiNetlify } from "react-icons/si"; // Importing Netlify icon from React Icons
@@ -15,6 +21,7 @@ const projectData = [
     image: image4,
     title: "Supabase Authentication System",
     description:
+<<<<<<< HEAD
       "A secure, responsive authentication system built with React, Supabase, and Tailwind CSS. Features email/password login, social OAuth (Google/GitHub), protected routes, session management, and a dynamic user dashboard with search functionality.it serves as a strong foundation for any web application requiring robust authentication, such as SaaS platforms, admin dashboards, or user portals.",
     technologies: ["React", "Supabase", "Tailwind CSS", "React Context"],
     source_code:
@@ -30,6 +37,12 @@ const projectData = [
     technologies: ["React", "CSS", "React-Router-dom", "Framer-Motion"],
     source_code: "https://github.com/MohdAzimuddin/ClothsKart",
     live_demo: "https://azimuddin-clothskart.netlify.app/",
+=======
+      "ClothsKart front-end project, a responsive experience showcasing a curated selection of classic suits. Built with React.js, Vanilla CSS, React Router DOM, and React Icons, this project allows users to effortlessly add products to their cart, apply coupon codes and view their order total. animations by Framer Motion enhance the user interface.", 
+    technologies: ["React", "CSS", "React-Router", "Framer-Motion"], 
+    source_code: "https://github.com/MohdAzimuddin/ClothsKart", 
+    live_demo: "https://azimuddin-clothskart.netlify.app/", 
+>>>>>>> 35f5a5e2fc946ab19e5cbc5ee0fefa41a4f0e9c7
   },
   {
     // Second Project: Live News Web Application
@@ -51,6 +64,30 @@ const projectData = [
     source_code: "https://github.com/MohdAzimuddin/codeeditor",
     live_demo: "https://1codeeditor.netlify.app/",
   },
+<<<<<<< HEAD
+=======
+  {
+    // Fifth Project: Personal Portfolio Website
+    image: image5, 
+    title: "Simple Task Management Web App", 
+    description:
+      "A Check List App built with React & Tailwind CSS, featuring dark mode, local storage support, and task completion tracking Easily add, delete, and mark tasks as complete while enjoying a sleek and responsive UI. Hosted on Vercel for seamless deployment.", 
+    technologies: ["React", "Tailwind CSS"], 
+    source_code: "https://github.com/MohdAzimuddin/Checklist", 
+    live_demo: "https://checklist-mohdazimuddin-chi.vercel.app/",
+    },
+  {
+    // Fourth Project: Personal Portfolio Website
+    image: image4, 
+    title: "Personal Portfolio Web Site", 
+    description:
+      "Crafted a fully responsive personal portfolio website using React, CSS, Framer Motion, and React Icons. It features a sleek, modern design with smooth animations and an intuitive user experience to showcase my skills and projects effectively with a clean design.", 
+    technologies: ["React", "CSS", "Framer-Motion"], 
+    source_code: "https://github.com/MohdAzimuddin/myportfolio", 
+    live_demo: "https://mohdazimuddinport.netlify.app",
+    },
+  
+>>>>>>> 35f5a5e2fc946ab19e5cbc5ee0fefa41a4f0e9c7
 ];
 
 // Component for applying scroll animations using Framer Motion

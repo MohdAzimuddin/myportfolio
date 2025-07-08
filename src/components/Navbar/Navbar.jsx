@@ -42,11 +42,8 @@ const Navbar = () => {
       {/* Social Media Links for Desktop */}
       <ul className="navbar-social-links">
         <a
-<<<<<<< HEAD
  href="https://www.linkedin.com/in/azeemuddin-shaikh-34284b202/"
-=======
-          href="https://linkedin.com/in/azeemuddin-shaikh-34284b202"
->>>>>>> 35f5a5e2fc946ab19e5cbc5ee0fefa41a4f0e9c7
+
           target="_blank"
            rel="noopener noreferrer"
           className="navbar-social-link linkedin"
@@ -95,11 +92,8 @@ const Navbar = () => {
           {/* Social Links in Mobile Menu */}
           <ul className="mobile-menu-social-links">
             <a
-<<<<<<< HEAD
               href="https://www.linkedin.com/in/azeemuddin-shaikh-34284b202/"
-=======
-              href="https://linkedin.com/in/azeemuddin-shaikh-34284b202"
->>>>>>> 35f5a5e2fc946ab19e5cbc5ee0fefa41a4f0e9c7
+
               target="_blank"
               rel="noopener noreferrer"
               className="mobile-menu-social-link linkedin"

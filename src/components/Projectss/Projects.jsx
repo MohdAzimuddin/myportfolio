@@ -18,7 +18,7 @@ const projectData = [
   {
     // First Project: ClothsKart - e-commerce application
     image: "/clothsKart.png",
-    title: "ClothsKart: e-commerce web Application",
+    title: "ClothsKart: E-commerce web Application",
     description:
       "ClothsKart front-end project, a responsive experience showcasing a curated selection of classic suits. Built with React.js, Vanilla CSS, React Router DOM, and React Icons, this project allows users to effortlessly add products to their cart, apply coupon codes and view their order total. animations by Framer Motion enhance the user interface.",
     technologies: ["React", "CSS", "React-Router-dom", "Framer-Motion"],

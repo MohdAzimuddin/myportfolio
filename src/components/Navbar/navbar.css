@@ -91,7 +91,7 @@ color: #3b82f6;
 /* Mobile Menu */
 .mobile-menu {
   position: fixed;
-  top: 5.25rem; /* 84px = 5.25rem */
+  top: 3.1rem; 
   right: 0;
   width: 50%;
   height: 100vh;

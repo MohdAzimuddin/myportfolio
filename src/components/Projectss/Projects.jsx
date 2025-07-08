@@ -1,9 +1,4 @@
 import { motion } from "framer-motion"; // Importing Framer Motion for animation effects
-import image1 from "/public/clothsKart.png"; // Importing the image for the first project
-import image2 from "/public/news.png"; // Importing the image for the second project
-import image4 from "/public/supabase.png"; // Importing the image for the fourth project
-import image3 from "/public/Personaleditor.png"; // Importing the image for the third project
-import image5 from "/public/Checklist.png"
 import "./project.css"; // Importing the CSS file for styling
 import { BsGithub } from "react-icons/bs"; // Importing GitHub icon from React Icons
 import { SiNetlify } from "react-icons/si"; // Importing Netlify icon from React Icons
@@ -12,7 +7,7 @@ import { SiNetlify } from "react-icons/si"; // Importing Netlify icon from React
 const projectData = [
   {
     // First Project:Supabse Authentication System
-    image: image4,
+    image: "/Supabase.png",
     title: "Supabase Authentication System",
     description:"A secure, responsive authentication system built with React, Supabase, and Tailwind CSS. Features email/password login, social OAuth (Google/GitHub), protected routes, session management, and a dynamic user dashboard with search functionality.it serves as a strong foundation for any web application requiring robust authentication, such as SaaS platforms, admin dashboards, or user portals.",
     technologies: ["React", "Supabase", "Tailwind CSS", "React Context"],
@@ -22,7 +17,7 @@ const projectData = [
   },
   {
     // First Project: ClothsKart - e-commerce application
-    image: image1,
+    image: "/clothsKart.png",
     title: "ClothsKart: e-commerce web Application",
     description:
       "ClothsKart front-end project, a responsive experience showcasing a curated selection of classic suits. Built with React.js, Vanilla CSS, React Router DOM, and React Icons, this project allows users to effortlessly add products to their cart, apply coupon codes and view their order total. animations by Framer Motion enhance the user interface.",
@@ -33,7 +28,7 @@ const projectData = [
   },
   {
     // Second Project: Live News Web Application
-    image: image2,
+    image: "/news.png",
     title: "Live News web-Application",
     description:
       "AtoZ NewsWeb is a dynamic, responsive web application designed to deliver the latest news from around the globe. Powered by the NewsAPI, this application keeps you informed with breaking headlines, trending stories, and in-depth articles across various categories, including technology, business and more. Built with React and styled with modern CSS.",
@@ -43,7 +38,7 @@ const projectData = [
   },
   {
     // Third Project: Personal Code Editor
-    image: image3,
+    image: "/Personaleditor.png",
     title: "Personal Code Editor",
     description:
       "HTML,CSS,JavaScript Editor A lightweight online code editor for writing and testing HTML, CSS, and JavaScript with live preview. The editor updates the output in real-time and is fully responsive. Features include clear buttons for each section and the ability to reset the output area independently.",
@@ -53,7 +48,7 @@ const projectData = [
   },
   {
     // Fifth Project: Personal Portfolio Website
-    image: image5, 
+    image: "/Checklist.png", 
     title: "Simple Task Management Web App", 
     description:
       "A Check List App built with React & Tailwind CSS, featuring dark mode, local storage support, and task completion tracking Easily add, delete, and mark tasks as complete while enjoying a sleek and responsive UI. Hosted on Vercel for seamless deployment.", 

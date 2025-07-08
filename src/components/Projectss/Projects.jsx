@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"; // Importing Framer Motion for animation effects
 import image1 from "/public/clothsKart.png"; // Importing the image for the first project
 import image2 from "/public/news.png"; // Importing the image for the second project
-import image4 from "/public/supabse.png"; // Importing the image for the fourth project
+import image4 from "/public/supabase.png"; // Importing the image for the fourth project
 import image3 from "/public/Personaleditor.png"; // Importing the image for the third project
 import image5 from "/public/Checklist.png"
 import "./project.css"; // Importing the CSS file for styling

@@ -51,6 +51,7 @@
 .hero-subheading {
   font-size: 1.8rem;
   font-weight: 400;
+  margin:1.2rem 0rem ;
   background: linear-gradient(to right, #ec4899,#3b82f6);
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -61,12 +62,13 @@
 /* Hero Description */
 .hero-description {
   font-size: 1.1rem; 
-  padding: 0.8rem 1.6rem;
+  padding: 1rem 0.5rem;
   color: #fcfdff;
   width: 45rem; 
   margin-bottom: 1rem;
   box-shadow: 0.2rem 0.25rem 0.6rem 0.2rem #3a0189e6; 
   text-decoration: none;
+  text-align: center;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
@@ -165,11 +167,11 @@ margin-top: 2.5rem;
   .hero-description {
     font-size: 0.8rem; 
     margin-inline:1rem;
-    width: 20rem;
+    max-width: 20rem;
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 390px) {
   .hero-image {
     width: 11.25rem; 
   }
@@ -185,6 +187,6 @@ margin-top: 2.5rem;
   .hero-description {
     font-size: 0.6rem; 
     margin-inline:1rem;
-    width: 10rem;
+    max-width: 15rem;
   }
 }

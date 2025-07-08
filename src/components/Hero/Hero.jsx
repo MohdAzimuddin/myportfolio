@@ -30,12 +30,12 @@ const Hero = () => {
           <h1 className="hero-heading">Mohd Azimuddin</h1>
           <h3 className="hero-subheading">Frontend Developer</h3>
           <p className="hero-description">
-          I am a passionate Front-End Developer skilled in HTML, CSS, JavaScript, and React.js. As a fresher, I specialize in creating responsive and interactive web applications that offer great user experiences. I enjoy turning design ideas into functional and visually appealing interfaces. Eager to work on exciting projects, I’m committed to using my skills to build modern, user-focused digital solutions while continuing to grow in web development.
+         I’m a passionate Front-End Developer with expertise in HTML, CSS, JavaScript, and React.js. I specialize in building responsive, interactive web applications that deliver seamless and engaging user experiences. I enjoy transforming creative ideas into functional, visually appealing interfaces with clean, modern code. Always eager to take on new challenges, I’m committed to continuously learning and applying my skills to craft user-focused digital solutions that make an impact.
           </p>
           <div className="hero-resume">
           <a
-            href="https://github.com/MohdAzimuddin/resume_/raw/main/Mohd_Azimuddin_Frontend_resume.pdf"
-            download="Mohd_Azimuddin_Frontend_resume.pdf"
+            href="https://github.com/MohdAzimuddin/newresume/raw/main/Mohd_Azimuddin_Frontend_Developer_Resume.pdf"
+            download="Mohd_Azimuddin_Frontend_Developer_resume.pdf"
             >
               <button className="resume-button">
             Download Resume

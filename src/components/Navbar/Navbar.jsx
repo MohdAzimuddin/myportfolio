@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import { BiMenu, BiX } from "react-icons/bi"; // Importing menu icons for the mobile menu toggle
 import { BsGithub, BsLinkedin } from "react-icons/bs"; // Importing social media icons

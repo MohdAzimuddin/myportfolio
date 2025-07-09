@@ -125,7 +125,7 @@ color: #3b82f6;
   color: #3b82f6;
   }
   .github:hover{
-    color:orangered
+    color:rgb(255, 246, 246)
   }
 
 /* Mobile Social Links */
@@ -149,7 +149,7 @@ color: #3b82f6;
 
 /* Responsive Styles */
 
-@media (min-width: 768px) {
+@media (min-width: 890px) {
   .navbar-links {
     display: flex;
   }

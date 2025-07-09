@@ -75,7 +75,7 @@ const Experience = () => {
         },
         {
             id: 3,
-            title: "Programming Tutor",
+            title: "Tutor",
             company: "volunteering  Tutoring",
             duration: "Sep 2023 – July 2024",
             location: "Mumbai, Maharashtra",

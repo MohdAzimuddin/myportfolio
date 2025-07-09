@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  min-width: 80vw;
   padding: 1rem;
   gap: 4rem;
 }
@@ -376,6 +377,7 @@ max-width: 200px;
   .projects-container {
     gap: 3rem;
     padding: 0.5rem;
+     min-width: 95vw;
   }
 
   .project-card {
@@ -428,6 +430,7 @@ max-width: 200px;
   .projects-container {
     gap: 2.5rem;
     padding: 0.5rem;
+     min-width: 95vw;
   }
 
   .project-card {

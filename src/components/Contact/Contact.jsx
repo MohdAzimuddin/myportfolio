@@ -10,7 +10,7 @@ const Contact = () => {
           <span className="gradient-text">Contact Me</span>
         </h1>
         <p className="contact-description">
-        For freelancing work, feel free to contact me via email or phone, and I'll be sure to respond!
+       For professional inquiries or potential collaborations, feel free to reach out via email or phone — I’ll be happy to connect
         </p>
         <div className="contact-details">
 

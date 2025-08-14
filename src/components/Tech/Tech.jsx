@@ -7,7 +7,7 @@ import {
   BiLogoReact,
   BiLogoTailwindCss,
 } from "react-icons/bi";
-import { SiReactrouter } from "react-icons/si";
+import { SiReactrouter,SiTypescript } from "react-icons/si";
  
 import { motion } from "framer-motion"; // Importing motion for animations
 import "./tech.css"; // Import the CSS file for styling
@@ -109,8 +109,8 @@ const Tech = () => {
     
         <IconAnimation>
           <div className="tech-deatils">
-            <TbBrandNextjs className="tech-icon next-icon" />
-            <span className="stack-name">Next.js</span>
+            <SiTypescript className="tech-icon next-icon" />
+            <span className="stack-name">TypeScript</span>
             <span className="stack-name">Acquiring skills in</span>
           </div>
         </IconAnimation>

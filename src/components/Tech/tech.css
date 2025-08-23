@@ -62,7 +62,9 @@
 
 .redux-icon{
   color: #764ABC;
-}
+  background-color: rgba(0, 191, 255, 0.1);  
+   opacity: 0.5;
+  }
 
 /* .router-icon {
   color: #ff0000;

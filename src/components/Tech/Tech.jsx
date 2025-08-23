@@ -111,9 +111,17 @@ const Tech = () => {
           <div className="tech-deatils">
             <SiTypescript className="tech-icon next-icon" />
             <span className="stack-name">TypeScript</span>
-            <span className="stack-name">Acquiring skills in</span>
+{/*             <span className="stack-name">Acquiring skills in</span> */}
           </div>
         </IconAnimation>
+
+        {/*         <IconAnimation>
+          <div className="tech-deatils">
+            <SiTypescript className="tech-icon next-icon" />
+            <span className="stack-name">TypeScript</span>
+            <span className="stack-name">Acquiring skills in</span>
+          </div>
+        </IconAnimation> */}
         
       </div>
     </div>

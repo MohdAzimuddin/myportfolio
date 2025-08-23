@@ -12,7 +12,7 @@ import { TbBrandFramerMotion} from "react-icons/tb";
 import { FaBootstrap } from "react-icons/fa";
  
 import { motion } from "framer-motion"; // Importing motion for animations
-import "./tech.css"; // Import the CSS file for styling
+import "./tech.css"; 
 
 const Tech = () => {
   // Variants for motion animations - defines the hidden and visible states
@@ -76,7 +76,7 @@ const Tech = () => {
 
         <IconAnimation>
           <div className="tech-deatils">
-            <SiTypescript className="tech-icon next-icon" />
+            <SiTypescript className="tech-icon typescript-icon" />
             <span className="stack-name">TypeScript</span>
           </div>
         </IconAnimation>
@@ -97,7 +97,7 @@ const Tech = () => {
 
         <IconAnimation>
           <div className="tech-deatils">
-            <BiLogoTailwindCss className="tech-icon css-icon" />
+            <BiLogoTailwindCss className="tech-icon tailwind-icon" />
             <span className="stack-name">Tailwind CSS</span>
           </div>
         </IconAnimation>

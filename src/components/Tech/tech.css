@@ -16,7 +16,6 @@
   font-weight: 300;
   color: white;
 }
-
 @media (min-width: 768px) {
   .tech-heading {
       font-size: 3rem; 
@@ -32,11 +31,16 @@
   gap: 2.5rem; 
 }
 
-/* Tech Icon Styles */
+/* Tech Icon Styles - Base styling for all icons */
 .tech-icon {
   font-size: 5rem; 
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .tech-icon:hover {
@@ -52,6 +56,10 @@
   color: #1572b6;
 }
 
+.tailwind-icon {
+  color: #1572b6;
+}
+
 .js-icon {
   color: #f7df1e;
 }
@@ -60,16 +68,25 @@
   color: #61dafb;
 }
 
-.redux-icon{
+.redux-icon {
   color: #764ABC;
   background-color: rgba(0, 191, 255, 0.1);  
-   opacity: 0.5;
-  }
+  opacity: 0.5;
+  /* Specific sizing adjustments for Redux to match other icons */
+  font-size: 4.5rem !important;
+  width: 5rem;
+  height: 5rem;
+}
 
-/* .router-icon {
-  color: #ff0000;
-} */
-.bootstrap-icon{
+.typescript-icon {
+  color: #3178C6;
+  /* Specific sizing adjustments for TypeScript to match other icons */
+  font-size: 4.2rem !important;
+  width: 5rem;
+  height: 5rem;
+}
+
+.bootstrap-icon {
   color: #0d6efd;
 }
 
@@ -80,52 +97,91 @@
 .git-icon {
   color: #fb2e0a;
 }
-.next-icon {
-  color: #3178C6;
-/* background-color: rgba(0, 191, 255, 0.1);  */
-/*   opacity: 0.5; */
-}
+
 /* Tech details */
-.tech-deatils{
+.tech-deatils {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-height: 8rem;
 }
 
-/* Tech detals name */
-.stack-name{
+/* Tech details name */
+.stack-name {
   color: white;
   font-size: 1rem;
+  text-align: center;
+  margin-top: 0.5rem;
 }
 
 /* Responsive Styles */
 @media (max-width: 1380px) {
   .tech-icon {
-      font-size: 4.5rem; 
+      font-size: 4.5rem;
+      width: 4.5rem;
+      height: 4.5rem;
+  }
+  .redux-icon {
+      font-size: 4rem !important;
+  }
+  .typescript-icon {
+      font-size: 3.8rem !important;
   }
 }
 
 @media (max-width: 1084px) {
   .tech-icon {
-      font-size: 4rem; 
+      font-size: 4rem;
+      width: 4rem;
+      height: 4rem;
+  }
+  .redux-icon {
+      font-size: 3.5rem !important;
+  }
+  .typescript-icon {
+      font-size: 3.3rem !important;
   }
 }
 
 @media (max-width: 820px) {
   .tech-icon {
-      font-size: 4rem; 
+      font-size: 4rem;
+      width: 4rem;
+      height: 4rem;
+  }
+  .redux-icon {
+      font-size: 3.5rem !important;
+  }
+  .typescript-icon {
+      font-size: 3.3rem !important;
   }
 }
 
 @media (max-width: 580px) {
   .tech-icon {
-      font-size: 3.5rem; 
+      font-size: 3.5rem;
+      width: 3.5rem;
+      height: 3.5rem;
+  }
+  .redux-icon {
+      font-size: 3rem !important;
+  }
+  .typescript-icon {
+      font-size: 2.8rem !important;
   }
 }
 
 @media (max-width: 350px) {
   .tech-icon {
-      font-size: 3rem; 
+      font-size: 3rem;
+      width: 3rem;
+      height: 3rem;
+  }
+  .redux-icon {
+      font-size: 2.5rem !important;
+  }
+  .typescript-icon {
+      font-size: 2.3rem !important;
   }
 }

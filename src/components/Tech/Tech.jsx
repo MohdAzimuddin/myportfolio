@@ -60,13 +60,12 @@ const Tech = () => {
           </div>
         </IconAnimation>
         
-        <IconAnimation>
+{/*         <IconAnimation>
           <div className="tech-deatils">
             <BiLogoRedux  className="tech-icon redux-icon" />
              <span className="stack-name">Redux Toolkit</span>
-             <span className="stack-name">Acquiring skills in</span>
           </div>
-        </IconAnimation>
+        </IconAnimation> */}
       
         <IconAnimation>
           <div className="tech-deatils">
@@ -132,13 +131,13 @@ const Tech = () => {
         </IconAnimation>
     
 
-        {/*         <IconAnimation>
+        <IconAnimation>
           <div className="tech-deatils">
-            <SiTypescript className="tech-icon next-icon" />
-            <span className="stack-name">TypeScript</span>
-            <span className="stack-name">Acquiring skills in</span>
+            <BiLogoRedux  className="tech-icon redux-icon" />
+             <span className="stack-name">Redux Toolkit</span>
+             <span className="stack-name">Acquiring skills in</span>
           </div>
-        </IconAnimation> */}
+        </IconAnimation>
         
       </div>
     </div>

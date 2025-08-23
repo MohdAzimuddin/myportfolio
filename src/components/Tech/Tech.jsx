@@ -8,10 +8,11 @@ import {
   BiLogoTailwindCss,
 } from "react-icons/bi";
 import { SiReactrouter,SiTypescript } from "react-icons/si";
+import { TbBrandFramerMotion} from "react-icons/tb";
+import { FaBootstrap } from "react-icons/fa";
  
 import { motion } from "framer-motion"; // Importing motion for animations
 import "./tech.css"; // Import the CSS file for styling
-import { TbBrandFramerMotion, TbBrandNextjs } from "react-icons/tb";
 
 const Tech = () => {
   // Variants for motion animations - defines the hidden and visible states
@@ -93,10 +94,17 @@ const Tech = () => {
           </div>
         </IconAnimation>
 
-        <IconAnimation>
+{/*         <IconAnimation>
           <div className="tech-deatils">
             <SiReactrouter className="tech-icon router-icon" />
             <span className="stack-name">React-Router</span>
+          </div>
+        </IconAnimation> */}
+  
+        <IconAnimation>
+          <div className="tech-deatils">
+            <FaBootstrap className="tech-icon bootstrap-icon" />
+            <span className="stack-name">Bootstrap5</span>
           </div>
         </IconAnimation>
 

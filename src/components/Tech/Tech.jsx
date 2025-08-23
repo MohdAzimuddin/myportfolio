@@ -67,6 +67,13 @@ const Tech = () => {
 
         <IconAnimation>
           <div className="tech-deatils">
+            <SiTypescript className="tech-icon next-icon" />
+            <span className="stack-name">TypeScript</span>
+          </div>
+        </IconAnimation>
+        
+        <IconAnimation>
+          <div className="tech-deatils">
             <BiLogoHtml5 className="tech-icon html-icon" />
             <span className="stack-name">HTML5</span>
           </div>
@@ -107,13 +114,6 @@ const Tech = () => {
           </div>
         </IconAnimation>
     
-        <IconAnimation>
-          <div className="tech-deatils">
-            <SiTypescript className="tech-icon next-icon" />
-            <span className="stack-name">TypeScript</span>
-{/*             <span className="stack-name">Acquiring skills in</span> */}
-          </div>
-        </IconAnimation>
 
         {/*         <IconAnimation>
           <div className="tech-deatils">

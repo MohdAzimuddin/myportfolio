@@ -6,8 +6,9 @@ import {
   BiLogoJavascript,
   BiLogoReact,
   BiLogoTailwindCss,
+  BiLogoTypescript,
+  BiLogoRedux,
 } from "react-icons/bi";
-import { SiReactrouter,SiTypescript,SiRedux} from "react-icons/si";
 import { TbBrandFramerMotion} from "react-icons/tb";
 import { FaBootstrap } from "react-icons/fa";
  
@@ -61,7 +62,7 @@ const Tech = () => {
         
         <IconAnimation>
           <div className="tech-deatils">
-            <SiRedux  className="tech-icon redux-icon" />
+            <BiLogoRedux  className="tech-icon redux-icon" />
              <span className="stack-name">Redux Toolkit</span>
              <span className="stack-name">Acquiring skills in</span>
           </div>
@@ -76,7 +77,7 @@ const Tech = () => {
 
         <IconAnimation>
           <div className="tech-deatils">
-            <SiTypescript className="tech-icon typescript-icon" />
+            <BiLogoTypescript className="tech-icon next-icon" />
             <span className="stack-name">TypeScript</span>
           </div>
         </IconAnimation>
@@ -97,7 +98,7 @@ const Tech = () => {
 
         <IconAnimation>
           <div className="tech-deatils">
-            <BiLogoTailwindCss className="tech-icon tailwind-icon" />
+            <BiLogoTailwindCss className="tech-icon css-icon" />
             <span className="stack-name">Tailwind CSS</span>
           </div>
         </IconAnimation>
